@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 # Load the Rails application.
 require_relative "application"
 
 # Initialize the Rails application.
 Rails.application.initialize!
-=======
+
 # Load the Rails application.
 require_relative 'application'
 
@@ -14,4 +13,3 @@ Rails.application.initialize!
 ActionView::Base.field_error_proc = Proc.new do |html_tag, instance|
     html_tag.html_safe
   end
->>>>>>> 8f9c2fb... devise base api Authentication done

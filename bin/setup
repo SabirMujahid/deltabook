@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/usr/bin/env ruby
 require "fileutils"
 
@@ -32,7 +31,7 @@ FileUtils.chdir APP_ROOT do
   puts "\n== Restarting application server =="
   system! "bin/rails restart"
 end
-=======
+
 #!/usr/bin/env ruby
 require 'fileutils'
 
@@ -69,4 +68,3 @@ FileUtils.chdir APP_ROOT do
   puts "\n== Restarting application server =="
   system! 'bin/rails restart'
 end
->>>>>>> 8f9c2fb... devise base api Authentication done
